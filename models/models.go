@@ -62,5 +62,5 @@ func init()  {
 }
 
 func CloseDB()  {
-	
+	defer db.Close()
 }
