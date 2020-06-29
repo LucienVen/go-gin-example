@@ -2,10 +2,10 @@ package routers
 
 import (
 	"gin.example/middleware/jwt"
+	"gin.example/pkg/setting"
 	"gin.example/routers/api"
 	v1 "gin.example/routers/api/v1"
 	"github.com/gin-gonic/gin"
-	"gin.example/pkg/setting"
 )
 
 func InitRouter() *gin.Engine {
