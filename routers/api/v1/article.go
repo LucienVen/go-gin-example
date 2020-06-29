@@ -10,7 +10,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 	"gin.example/pkg/logging"
-	"log"
 	"net/http"
 )
 
